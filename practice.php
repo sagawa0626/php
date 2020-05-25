@@ -14,8 +14,12 @@ $world = "'s World!";
 
 echo $hello . $name . $world;
 
-$tech_boost = "tech";
-echo $tech_boost . "boost";
+$tech_boost = '「';
+$tech_boost .= 'tech';
+$tech_boost .= ' boost';
+$tech_boost .= '」';
+
+echo $tech_boost;
 
 $calender_2018 = [
   "January" => "1月",
